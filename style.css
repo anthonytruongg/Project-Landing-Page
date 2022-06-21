@@ -69,6 +69,7 @@ a {
     width: 30%;
     padding: 8px 16px;
     border-radius: 12px;
+    font-weight: bold;
 }
 .imageHolder {
     background-color: gray;
@@ -81,32 +82,6 @@ a {
     width: 450px;
     margin: 25px;
     padding: 100px;
-}
-/*---------------------------------------*/
-.bodyThree {
-    background-color: #E5E7Eb;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 0;
-}
-.sectionThree {
-    /* background-color: red; */
-    padding: 100px;    
-}
-.text#num3 {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    margin: 0;
-    padding: 0px 200px;
-    
-}
-.author {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    text-align: right;
 }
 /*---------------------------------------*/
 .bodyTwo {
@@ -145,16 +120,70 @@ a {
     width: 200px;
     height: 200px;
 }
-.secTwoContainer {
-    background-color: red;
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    padding: 32px;
-}
 .subText {
     font-size: 18px;
     display: flex;
     text-align: center;
     width: 130px;
+}
+/*---------------------------------------*/
+.bodyThree {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+}
+.sectionThree {
+    /* background-color: red; */
+    padding: 100px;    
+}
+.text#num3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    padding: 0px 200px;
+    
+}
+.author {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+/*---------------------------------------*/
+.bodyFour {
+    background-color: white;
+    padding: 100px;
+}
+.sectionFour {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    border-radius: 20px;
+}
+.callToAction {
+
+}
+.textOne {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+.textTwo {
+    color: white;
+    font-size: 18px;
+}
+.buttonsTwo {
+    background-color:#3882F6;
+    border-color: white;
+    color: white;
+    width: 15%;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
 }
