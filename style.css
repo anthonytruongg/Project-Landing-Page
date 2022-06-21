@@ -1,27 +1,32 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1f2937;
+    margin: 0;
+    
+}
+/*---------------------------------------*/
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #E5E7Eb
 
 }
-
+/*---------------------------------------*/
 .sectionOne {
-    /* background-color: #1f2937; */
-    height: auto;
-
+    background-color: #1f2937;
+    padding: 100px
 }
-
 .header {
     color: #F9FaF8;
     font-size: 24px;
     font-weight: bold;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     gap: 15px;
 }
-
 .right-links {
     font-size: 18px;
     font-weight: lighter;
@@ -30,17 +35,7 @@ body {
     display: flex;
     flex-direction: row;
 }
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7Eb
-
-}
-
+/*---------------------------------------*/
 .heroText {
     /* background-color: red; */
 
@@ -48,8 +43,6 @@ a {
     flex: 1;
     justify-content: space-around;
 }
-
-
 .textContainer {
     /* background-color: gray; */
 
@@ -59,7 +52,6 @@ a {
     width: 450px;
     margin: 25px;
 } 
-
 .mainText {
     font-size: 48px;
     color: #F9FaF8;
@@ -70,7 +62,6 @@ a {
     color: white;
     margin-bottom: 10px;
 }
-
 .buttons {
     background-color:#3772f6;
     border: 1px #3772f6;
@@ -79,7 +70,6 @@ a {
     padding: 8px 16px;
     border-radius: 12px;
 }
-
 .imageHolder {
     background-color: gray;
     color: white;
@@ -91,4 +81,29 @@ a {
     width: 450px;
     margin: 25px;
     padding: 100px;
+}
+/*---------------------------------------*/
+.bodyTwo {
+    background-color: #E5E7Eb;
+    flex: 1;
+    margin: 0;
+}
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 100px;    
+}
+.text#num3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    width: 900px;
+    padding: 0px 200px;
+    
+}
+.author {
+    font-weight: bold;
+text-align: right;
 }
