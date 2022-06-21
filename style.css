@@ -83,15 +83,15 @@ a {
     padding: 100px;
 }
 /*---------------------------------------*/
-.bodyTwo {
+.bodyThree {
     background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
     flex: 1;
     margin: 0;
 }
 .sectionThree {
-    display: flex;
-    flex-direction: column;
-    
+    /* background-color: red; */
     padding: 100px;    
 }
 .text#num3 {
@@ -99,11 +99,62 @@ a {
     font-style: italic;
     color: #1F2937;
     margin: 0;
-    width: 900px;
     padding: 0px 200px;
     
 }
 .author {
+    font-size: 18px;
+    font-style: normal;
     font-weight: bold;
-text-align: right;
+    text-align: right;
+}
+/*---------------------------------------*/
+.bodyTwo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 100px;
+    
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cardOne, .cardTwo, .cardThree, .cardFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.text#num2 {
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imagesBodyTwo {
+    border: 5px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    height: 200px;
+}
+.secTwoContainer {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 32px;
+}
+.subText {
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    width: 130px;
 }
