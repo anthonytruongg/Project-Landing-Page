@@ -1,0 +1,94 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f2937;
+
+}
+
+.sectionOne {
+    /* background-color: #1f2937; */
+    height: auto;
+
+}
+
+.header {
+    color: #F9FaF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 15px;
+}
+
+.right-links {
+    font-size: 18px;
+    font-weight: lighter;
+    gap: 25px;
+   
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7Eb
+
+}
+
+.heroText {
+    /* background-color: red; */
+
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+
+.textContainer {
+    /* background-color: gray; */
+
+    display: flex;
+    flex-direction: column;
+
+    width: 450px;
+    margin: 25px;
+} 
+
+.mainText {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: bolder;    
+}
+.text {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    background-color:#3772f6;
+    border: 1px #3772f6;
+    color: white;
+    width: 30%;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+
+.imageHolder {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 450px;
+    margin: 25px;
+    padding: 100px;
+}
