@@ -1,6 +1,9 @@
 # Project-Landing-Page
 My first project from 'The Odin Project'
 
+
+
+## Personal Notes
 6-20-22 2:00pm
 Starting off my project. First commit here to test.
 
