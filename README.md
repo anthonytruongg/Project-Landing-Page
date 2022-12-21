@@ -1,5 +1,6 @@
 # Project-Landing-Page
 My first project from 'The Odin Project'
+Live Preview: https://anthonytruongg.github.io/Project-Landing-Page/
 
 
 
